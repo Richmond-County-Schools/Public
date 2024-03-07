@@ -2,7 +2,7 @@
     "Categories": [
         "computerlab"
     ],
-    "AddPrinters": [
+    "Printers": [
         {
             "PrinterName": "ERSRMA38LJ2055",
             "PrinterPath": "\\\\RCSPS01\\ERSRMA38LJ2055",
@@ -201,73 +201,97 @@
             "PrinterPath": "\\\\RCSPS01\\WRSRM206BRO3170",
             "Categories": [],
             "Groups": []
-        }
-    ],
-    "RemovePrinters": [
+        },
         {
             "PrinterName": "RSH-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\RSH-Cafeteria",
             "IpAddress": "10.28.110.92",
-            "PrinterPath": "\\\\RCSPS01\\RSH-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "AEC-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\AEC-Cafeteria",
             "IpAddress": "10.17.100.53",
-            "PrinterPath": "\\\\RCSPS01\\AEC-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "CMS-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\CMS-Cafeteria",
             "IpAddress": "10.16.101.32",
-            "PrinterPath": "\\\\RCSPS01\\CMS-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "ERS-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\ERS-Cafeteria",
             "IpAddress": "10.4.103.58",
-            "PrinterPath": "\\\\RCSPS01\\ERS-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "FHS-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\FHS-Cafeteria",
             "IpAddress": "10.14.100.77",
-            "PrinterPath": "\\\\RCSPS01\\FHS-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "HMS-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\HMS-Cafeteria",
             "IpAddress": "10.13.102.53",
-            "PrinterPath": "\\\\RCSPS01\\HMS-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "LJB-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\LJB-Cafeteria",
             "IpAddress": "10.12.100.63",
-            "PrinterPath": "\\\\RCSPS01\\LJB-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "MAS-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\MAS-Cafeteria",
             "IpAddress": "10.11.105.50",
-            "PrinterPath": "\\\\RCSPS01\\MAS-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "MSE-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\MSE-Cafeteria",
             "IpAddress": "10.9.101.55",
-            "PrinterPath": "\\\\RCSPS01\\MSE-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RCN-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\RCN-Cafeteria",
             "IpAddress": "10.20.100.67",
-            "PrinterPath": "\\\\RCSPS01\\RCN-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMS-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\RMS-Cafeteria",
             "IpAddress": "10.6.103.56",
-            "PrinterPath": "\\\\RCSPS01\\RMS-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "WRS-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\WRS-Cafeteria",
             "IpAddress": "10.2.101.66",
-            "PrinterPath": "\\\\RCSPS01\\WRS-Cafeteria"
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "WSS-Cafeteria",
+            "PrinterPath": "\\\\RCSPS01\\WSS-Cafeteria",
             "IpAddress": "10.3.101.67",
-            "PrinterPath": "\\\\RCSPS01\\WSS-Cafeteria"
+            "Categories": [],
+            "Groups": []
         }
     ]
 }
