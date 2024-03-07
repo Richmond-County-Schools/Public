@@ -1,4 +1,7 @@
 {
+    "Categories": [
+        "computerlab"
+    ],
     "AddPrinters": [
         {
             "PrinterName": "ERSRMA38LJ2055",
