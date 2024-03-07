@@ -1,0 +1,15 @@
+{
+    "ComputerLabs": [
+        {
+            "name": "RSH-Cafeteria",
+            "ip_address": "10.28.110.92",
+            "print_server_path": "\\\\RCSPS01\\RSH-Cafeteria",
+            "groups": [
+                {
+                "name": "z) District Owned Windows 10/11 Devices",
+                "id": "69980901-28bb-4d2b-9781-c429d9595d49"
+                }
+            ]
+        }
+    ]
+}
