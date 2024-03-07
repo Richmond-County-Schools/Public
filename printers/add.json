@@ -3,10 +3,10 @@
         {
             "PrinterName": "ERSRMA38LJ2055",
             "PrinterPath": "\\\\RCSPS01\\ERSRMA38LJ2055",
-            "categories": [
+            "Categories": [
                 "computerlab"
             ],
-            "groups": [
+            "Groups": [
                 {
                     "name": "z) District Owned Windows 10/11 Devices",
                     "id": "69980901-28bb-4d2b-9781-c429d9595d49"
@@ -16,188 +16,188 @@
         {
             "PrinterName": "ERSRMA27LJ4200",
             "PrinterPath": "\\\\RCSPS01\\ERSRMA27LJ4200",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RCNRM219HPLJP4015N",
             "PrinterPath": "\\\\RCSPS01\\RCNRM219HPLJP4015N",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RCNRM604HPLJM604",
             "PrinterPath": "\\\\RCSPS01\\RCNRM604HPLJM604",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RCNRM303HPLJP4015N",
             "PrinterPath": "\\\\RCSPS01\\RCNRM303HPLJP4015N",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "EMSRM7HPLJP3015",
             "PrinterPath": "\\\\RCSPS01\\EMSRM7HPLJP3015",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "EMSPRINCIPALPLJM404",
             "PrinterPath": "\\\\RCSPS01\\EMSPRINCIPALPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "EMSMEDIAHPLJM404",
             "PrinterPath": "\\\\RCSPS01\\EMSMEDIAHPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM314HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM314HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM536HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM536HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM219HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM219HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM311HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM311HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM114HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM114HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM111HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM111HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM257HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM257HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM115HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM115HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM312HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM312HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM319HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM319HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM318HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM318HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM217HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM217HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM211HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM211HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM112HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM112HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM216HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM216HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSMEDIAHPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSMEDIAHPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM118HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM118HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "RMSRM214HPLJM404",
             "PrinterPath": "\\\\RCSPS01\\RMSRM214HPLJM404",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "LabLexmark",
             "PrinterPath": "\\\\ANXFS01\\LabLexmark",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "ANXLABCLM553",
             "PrinterPath": "\\\\ANXFS01\\ANXLABCLM553",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "MASRM113HPCLJ400",
             "PrinterPath": "\\\\RCSPS01\\MASRM113HPCLJ400",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "MASRM214HPLJ600",
             "PrinterPath": "\\\\RCSPS01\\MASRM214HPLJ600",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "MASRM214HPCLJ400",
             "PrinterPath": "\\\\RCSPS01\\MASRM214HPCLJ400",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         },
         {
             "PrinterName": "WRSRM206BRO3170",
             "PrinterPath": "\\\\RCSPS01\\WRSRM206BRO3170",
-            "categories": [],
-            "groups": []
+            "Categories": [],
+            "Groups": []
         }
     ],
     "RemovePrinters": [
