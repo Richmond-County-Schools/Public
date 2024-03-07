@@ -20,7 +20,12 @@
             "PrinterName": "ERSRMA27LJ4200",
             "PrinterPath": "\\\\RCSPS01\\ERSRMA27LJ4200",
             "Categories": [],
-            "Groups": []
+            "Groups": [
+                {
+                    "name": "z) District Owned Windows 10/11 Devices",
+                    "id": "69980901-28bb-4d2b-9781-c429d9595d49"
+                }
+            ]
         },
         {
             "PrinterName": "RCNRM219HPLJP4015N",
