@@ -21,18 +21,18 @@
             "PrinterName": "RCNRM219HPLJP4015N",
             "PrinterPath": "\\\\RCSPS01\\RCNRM219HPLJP4015N",
             "Categories": [],
+            "Groups": []
+        },
+        {
+            "PrinterName": "RCNRM604HPLJM604",
+            "PrinterPath": "\\\\RCSPS01\\RCNRM604HPLJM604",
+            "Categories": [],
             "Groups": [
                 {
                     "name": "z) District Owned Windows 10/11 Devices",
                     "id": "69980901-28bb-4d2b-9781-c429d9595d49"
                 }
             ]
-        },
-        {
-            "PrinterName": "RCNRM604HPLJM604",
-            "PrinterPath": "\\\\RCSPS01\\RCNRM604HPLJM604",
-            "Categories": [],
-            "Groups": []
         },
         {
             "PrinterName": "RCNRM303HPLJP4015N",
