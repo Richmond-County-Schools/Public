@@ -36,11 +36,6 @@
             "print_server_path": "\\\\RCSPS01\\LJB-Cafeteria"
         },
         {
-            "name": "LJB-Cafeteria-Workroom",
-            "ip_address": "10.12.100.67",
-            "print_server_path": "\\\\RCSPS01\\LJB-Cafeteria-Workroom"
-        },
-        {
             "name": "MAS-Cafeteria",
             "ip_address": "10.11.105.50",
             "print_server_path": "\\\\RCSPS01\\MAS-Cafeteria"
