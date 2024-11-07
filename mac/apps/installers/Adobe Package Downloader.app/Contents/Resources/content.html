@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+    <link rel="stylesheet" type="text/css" href="clean.css">
+    <link rel="stylesheet" type="text/css" href="content.css">
+    <link rel="stylesheet" type="text/css" href="common.css">
+</head>
+<body onload="onLoadComplete()">
+    <div class="container">
+
+        <div class="text-center downloaderContent" id="downloaderPackageContent">
+            <div class="centerMid">
+                <img src="" />
+                <div class="packageName"></div>
+            </div>
+        </div>
+
+        <div class="content text-center" id="productContent">
+            <div class="centerMid">
+                <img src="" />
+                <div class="productName"></div>
+                <div class="productVersion"></div>
+            </div>
+        </div>
+
+        <div class="downloadOptions" id = "downloadOptions">
+            <div class="downloadOptionsSpace">
+                <div id = downloadOptionsHeader></div>
+                <div class="hr" id="downloadOptionsHR"></div>
+                <div class="optionHeader" id="downloadLocationHeader"></div>
+                <div class="optionDropdown" id="downloadLocationOptionDropdown">
+
+                    <div class="dropdownHead" id="downloadLocationOptionDropdownHead" tabindex="3">
+
+                        <div class="dropdownHeader" id="downloadLocationDropdownHeader" onclick="dropdownMenuToggle($('#downloadLocationDropdownOptionsList')); return false;">
+                            <span class="dropdownTextbox truncateText" id="downloadLocationDropdownTextbox">
+
+                            </span>
+                            <span class="dropdownIcon" id="downloadLocationDropdownIcon">
+                                <img class="dropdownIconImg" id="downloadLocationDropdownIconImg" />
+                            </span>
+                        </div>
+                    </div>
+                    <div class="dropdownOptionsList" id="downloadLocationDropdownOptionsList">
+                    </div>
+                </div>
+                <div class="continueBtn" >
+                    <input id="continueDownloadButton" type="button" class="btn btn-primary " tabindex="4"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="downloadPackageDescription text-center" id="downloadPackageDescription">
+            <p class="description" id = "packageDescription">  </p>
+            <div class="text-center learnMore">
+                <a href="#" class="btn btn-primary" id="learnMoreButton">
+                </a>
+            </div>
+        </div>
+
+        <div id="suiteContent" class="text-center">
+            <img id="suiteIcon" src=""/>
+            <div id="suiteName" class="ellip-line"></div>
+            <div id="productsListingContainer" class="default-skin">
+                
+            </div>
+            <div id="selectedProductsStats">
+                <div id="productsSelectedStatus">
+                    <span id="selectAllProducts" class="active" onclick="selectAllClicked()"  tabindex="1"></span>
+                    &nbsp;
+                    <span id="numProductsSelected"></span>
+                </div>
+                <div id="totalSize">
+                    <span id="totalSizeHeader"></span>
+                    <span id="totalSizeReadable"></span>
+                </div>
+            </div>
+        </div>
+        <div class="carousel" id="carousel">
+
+        </div>
+        <div class="options" id="options">
+            <div class="installOptions">
+                <div id="installOptionsHeader">
+
+                </div>
+                <div class="hr" id="installOptionsHR">
+
+                </div>
+                <div class="optionHeader" id="languageHeader">
+
+                </div>
+
+                <div class="optionDropdown" id="languageOptionDropdown">
+                    <div class="dropdownHead"  id="languageOptionDropdownHead" tabindex="2">
+                        <div class="dropdownHeader" id="languageDropdownHeader" onclick="dropdownMenuToggle($('#languageDropdownOptionsList')); return false;">
+                            <span class="dropdownTextbox truncateText" id="languageDropdownTextbox">
+
+                            </span>
+                            <span class="dropdownIcon" id="languageDropdownIcon">
+                                <img class="dropdownIconImg" id="languageDropdownIconImg" />
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="dropdownOptionsList" id="languageDropdownOptionsList">
+                        <div id="languageDropdownOptionsListInner">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="optionHeader" id="locationHeader">
+
+                </div>
+
+                <div class="optionDropdown" id="locationOptionDropdown">
+                    <div class="dropdownHead" id="locationOptionDropdownHead" tabindex="3">
+                        <div class="dropdownHeader" id="locationDropdownHeader" onclick="dropdownMenuToggle($('#locationDropdownOptionsList')); return false;">
+                            <span class="dropdownTextbox truncateText" id="locationDropdownTextbox">
+
+                            </span>
+                            <span class="dropdownIcon" id="locationDropdownIcon">
+                                <img class="dropdownIconImg" id="locationDropdownIconImg" />
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="dropdownOptionsList" id="locationDropdownOptionsList">
+
+                    </div>
+                </div>
+                
+                <div class="locationDisabledWarningText">
+
+                </div>
+
+                <div class="continueBtn" >
+                    <input id="continueButton" type="button" class="btn btn-primary disabled" tabindex="4"/>
+                </div>
+            </div>
+        </div>
+        <div class="updates" id="updates">
+            <div id="updateScreenContent">
+                <div id="updateNotAvailable">
+
+                </div>
+                <div id="updateAvailable">
+                    <div id="whatsNewInUpdate">
+
+                    </div>
+                    <div id="updateDescription" class="default-skin">
+
+                    </div>
+                </div>
+            </div>
+            <div id="updateScreenButton">
+                <input id="updateScreenButtonInput" type="button" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.custom-scrollbar.min.js"></script>
+    <script type="text/javascript" src="content.js"></script>
+    <script type="text/javascript" src="common.js"></script>
+</body>
+</html>

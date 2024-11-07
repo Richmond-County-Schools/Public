@@ -1,0 +1,859 @@
+body {
+    line-height: normal;
+    font-family: 'Adobe Clean', sans-serif;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cec-carousel{
+	border: none;
+	position: fixed;
+}
+
+.centerMid {
+    padding-top: 88px;
+    padding-top: 5.5rem;
+}
+
+.content {
+    height: 345px;
+	height: 21.5625rem;
+    color: #4b4b4b;
+    background: #f5f5f5;
+    position: relative;
+}
+
+.content .centerMid {
+    height: 181px;
+	height: 11.31rem;
+}
+
+.content img {
+
+    margin-bottom: 22px;
+    margin-bottom: 1.375rem;
+    width: 88px;
+	width: 5.5rem;
+    height: 84px;
+    height: 5.25rem;
+}
+
+.content .productName {
+    font-size: 29px;
+	font-size: 1.812rem;
+    font-weight: lighter;
+    word-wrap: break-word;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.downloaderContent .packageName {
+    font-size: 29px;
+    font-size: 1.812rem;
+    font-weight: lighter;
+    word-wrap: break-word;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.downloaderContent {
+    height: 280px;
+    height: 17.5rem;
+    color: #4b4b4b;
+    background: #f5f5f5;
+    position: relative;
+}
+
+.downloaderContent .centerMid {
+    height: 181px;
+    height: 11.31rem;
+}
+
+.downloaderContent img {
+    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
+    width: 102px;
+    width: 6.375rem;
+    height: 98px;
+    height: 6.125rem;
+}
+
+.description {
+    font-size: 16px;
+	font-size: 1rem;
+}
+
+.downloadPackageDescription .description {
+    line-height: 22px;
+    line-height: 1.375rem;
+    padding-top: 48px;
+    padding-top: 3rem;
+    margin-top: 0;
+    min-height: 66px;
+    min-height: 4.125rem;
+    text-align: center;
+    top: 20px;
+    top: 1.25rem;
+    position:relative;
+    margin-left:65px;
+    margin-left:4.062rem;
+    margin-right:65px;
+    margin-right:4.062rem;
+    color: #4b4b4b;
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+.content .productVersion {
+    line-height: 24px;
+	line-height: 1.5rem;
+    margin-top: 2px;
+	margin-top: 0.125rem;
+}
+
+.carousel {
+    height: 240px;
+	height: 15rem;
+    background: #eaeaea;
+    display: none;
+}
+
+.carousel .productIcon img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    margin-top: 375px;
+	margin-top: 23.4375rem;
+    width: 30px;
+    width: 1.875rem;
+    height: 22px;
+    height: 1.375rem;
+}
+
+.carousel .item .productIcon {
+    height: 30px;
+	height: 1.875rem;
+    position: relative;
+}
+
+.carousel .description {
+    line-height: 22px;
+	line-height: 1.375rem;
+    padding: 0 0px;
+    margin-top: 0;
+    min-height: 66px;
+	min-height: 4.125rem;
+    text-align: center;
+    top: 74px;
+	top: 4.625rem;
+    position:relative;
+    margin-left:65px;
+	margin-left:4.062rem;
+    margin-right:65px;
+	margin-right:4.062rem;
+}
+
+.carousel .learnMore .btn {
+    margin-top: 66px;
+	margin-top: 4.125rem;
+    font-weight: bold;
+    font-size: 15px;
+	font-size: 0.937rem;
+    line-height: 1.22857143;
+}
+
+.downloadPackageDescription .learnMore .btn {
+    margin-top: 12px;
+    margin-top: 0.75rem;
+    font-weight: normal;
+    font-size: 15px;
+    font-size: 0.937rem;
+    line-height: 1.22857143;
+    position: relative;
+    background-color: #2A9BF3;
+    border-color: #2A9BF3;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+	padding: 0.312rem 0.937rem;
+    margin-bottom: 0;
+    font-size: 14px;
+	font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+	border-radius: 0.187rem;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+}
+
+a.btn.disabled, fieldset[disabled] a.btn {
+    pointer-events: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1373E6;
+    border-color: #0373E6;
+    font-weight: bold;
+}
+
+.btn-primary:lang(zh) {
+    color: #fff;
+    background-color: #1373E6;
+    border-color: #0373E6;
+    font-weight: normal;
+}
+
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #0373E6;
+    border-color: #0173E6;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0373E6;
+    border-color: #1373E6;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #204d74;
+    border-color: #122b40;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #EAEAEA;
+    color: #B3B3B3;
+    border-color: #EAEAEA;
+}
+
+.btn-primary .badge {
+    color: #337ab7;
+    background-color: #fff;
+}
+
+.options {
+    height: 285px;
+	height: 17.8125rem;
+    width: 100%;
+    bottom: 0px;
+    bottom: 0rem;
+    background: #f5f5f5;
+    position: absolute;
+    display: none;
+}
+
+.downloadOptions {
+    height: 305;
+    height: 19.0625rem;
+    width: 100%;
+    bottom: 0px;
+    bottom: 0rem;
+    background: #f5f5f5;
+    position: relative;
+    display: none;
+}
+.downloadOptionsSpace {
+    width: 270px;
+    width: 16.875rem;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-top: 1rem;
+}
+
+.downloadPackageDescription {
+    height: 305;
+    height: 19.0625rem;
+    width: 100%;
+    bottom: 0px;
+    bottom: 0rem;
+    background: #f5f5f5;
+    display: none;
+}
+
+.installOptions {
+    width: 270px;
+    width: 16.875rem;
+    margin: 0 auto;
+}
+
+#installOptionsHeader {
+    line-height: 22px;
+    line-height: 1.375rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
+    color: #2d2d2d;
+}
+
+#downloadOptionsHeader {
+    line-height: 22px;
+    line-height: 1.375rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
+    color: #4b4b4b;
+}
+
+#continueDownloadButton {
+    font-weight: normal;
+    background-color: #2A9BF3;
+    border-color: #2A9BF3;
+}
+
+.hr {
+    height: 0;
+    margin: 0;
+    border-bottom: 1px solid #eaeaea;
+    border-bottom: 0.0625rem solid #eaeaea;
+    font-size: 1px;
+    font-size: 0.0625rem;
+}
+
+.optionHeader {
+    padding-top: 15px;
+    padding-top: 0.9375rem;
+    line-height: 17px;
+    line-height: 1.0625rem;
+    font-size: 14px;
+    font-size: 0.875rem;
+    color: #4b4b4b;
+    font-weight: bold;
+}
+
+.downloadOptions .optionHeader {
+    padding-top: 15px;
+    padding-top: 0.9375rem;
+    line-height: 17px;
+    line-height: 1.0625rem;
+    font-size: 14px;
+    font-size: 0.875rem;
+    color: #4b4b4b;
+    font-weight: normal;
+}
+
+.optionDropdown {
+    margin-top: 5px;
+    margin-top: 0.3125rem;
+    position: relative;
+    color: #4b4b4b;
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+.dropdownHead {
+    overflow: hidden;
+}
+
+.dropdownHeader {
+    cursor: pointer;
+}
+
+.dropdownTextbox {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: white;
+    vertical-align: baseline;
+    width: 238px;
+    width: 14.875rem;
+    height: 32px;
+    height: 2rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+    color: #4b4b4b;
+    font-size: 14px;
+    font-size: 0.875rem;
+    float: left;
+    text-indent: 12px;
+    text-indent: 0.75rem;
+    text-overflow: ellipsis;
+    border: 1px solid #e1e1e1;
+    border: 0.0625rem solid #e1e1e1;
+    border-right: 0px;
+    border-right: 0rem;
+    border-radius: 4px 0px 0px 4px;
+    border-radius: 0.25rem 0rem 0rem 0.25rem;
+}
+
+.dropdownTextbox.disabled {
+    background-color: #F5F5F5;
+    color: #999999;
+    cursor: not-allowed;
+}
+
+.truncateText {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dropdownIcon {
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    width: 32px;
+    width: 2rem;
+    height: 32px;
+    height: 2rem;
+    border-radius: 0px 4px 4px 0px;
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
+    border: 1px solid #e1e1e1;
+    border: 0.0625rem solid #e1e1e1;
+    background-color: #fafafa;
+}
+
+.dropdownIcon:not(.disabled):hover {
+    background-color: #ffffff;
+    border-color: #b6b6b6;
+}
+
+.dropdownIcon.active:not(.disabled) {
+    background-color: #eaeaea;
+    border-color: #b6b6b6;
+}
+
+.dropdownIcon.disabled {
+    cursor: not-allowed;
+}
+
+#locationDropdownIcon {
+    padding: 6px;
+    padding: 0.375rem;
+}
+
+#downloaderPackageContent {
+    display: none;
+}
+
+#downloadLocationDropdownicon {
+    padding: 6px;
+    padding: 0.375rem;
+}
+
+#languageDropdownIcon {
+    padding: 7px 10px 13px 10px;
+    padding: 0.4375rem 0.625rem 0.8125rem 0.625rem;
+}
+
+.dropdownIconImg {
+    vertical-align: initial;
+    border: none;
+}
+
+#locationDropdownIconImg {
+    width: 18px;
+    width: 1.125rem;
+    height: 18px;
+    height: 1.125rem;
+}
+
+#downloadLocationDropdownIconImg {
+    margin-top: 6px;
+    margin-top: 0.375rem;
+}
+
+#languageDropdownIconImg {
+    width: 10px;
+    width: 0.625rem;
+    height: 10px;
+    height: 0.625rem;
+}
+
+.dropdownOptionsList {
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 14px;
+    font-size: 0.875rem;
+    border: 1px solid #b6b6b6;
+    border: 0.0625rem solid #b6b6b6;
+    border-radius: 4px;
+    border-radius: 0.25rem;
+    top: 36px;
+    top: 2.25rem;
+    width: 270px;
+    width: 16.875rem;
+    z-index: 1;
+}
+
+#locationDropdownOptionsList {
+    max-height: 72px;
+    max-height: 4.5rem;
+    overflow: hidden;
+}
+
+#languageDropdownOptionsList {
+    max-height: 140px; 
+    max-height: 8.75rem;
+    overflow: hidden;
+}
+
+#languageDropdownOptionsListInner {
+    max-height: 140px; 
+    max-height: 8.75rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.dropdownOptionsUL {
+    list-style-type: none;
+    scrollbar-face-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 4px;
+    padding-top: 0.25rem;
+    padding-bottom: 4px;
+    padding-bottom: 0.25rem;
+}
+
+.dropdownOption {
+    color: #4b4b4b;
+    white-space: nowrap;
+    display: block;
+}
+
+a.dropdownOption:link {
+    text-decoration: none;
+}
+
+.dropdownOptionLI {
+    padding-left: 10px;
+    padding-left: 0.625rem;
+    padding-right: 10px;
+    padding-right: 0.625rem;
+    line-height: 28px;
+    line-height: 1.75rem;
+}
+
+.dropdownOptionLI:hover, .dropdownOptionLI.active {
+    background-color: #f5f5f5;
+    color: #4b4b4b;
+}
+
+.dropdownOptionLI.active > .dropdownOption {
+    color: #0064dc;
+}
+
+.continueBtn {
+    padding-top: 24px;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.genericCarousel {
+  display: table-cell;
+  vertical-align: middle;
+  width: 445px;
+  width: 27.8125rem;
+  height: 239px;
+  height: 14.9375rem;
+  background: #f5f5f5;
+}
+
+.genericCarouselAdobeSVG {
+
+  height: 24px;
+  height: 1.5rem;
+  width: 24px;
+  width: 1.5rem;
+  display: block;
+  margin: auto;
+}
+
+.genericCarouselText {
+  padding-top: 10px;
+  padding-top: 0.625rem;
+}
+
+.updates {
+    height: 305px;
+	height: 19.0625rem;
+    width: 100%;
+    bottom: 0px;
+    bottom: 0rem;
+    background: #f5f5f5;
+    position: absolute;
+    display: none;
+}
+
+#updateScreenContent {
+    margin-top: 20px;
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+#updateNotAvailable {
+    display: none;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 20px;
+    line-height: 1.25rem;
+    color: #4b4b4b;
+}
+
+#updateAvailable {
+    display: none;
+}
+
+#whatsNewInUpdate {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20px;
+    line-height: 1.25rem;
+    font-weight: bold;
+    color: #4b4b4b;
+    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
+}
+
+#horizontalLine {
+    height: 0;
+    margin: 0;
+    border-bottom: 1px solid #eaeaea;
+    border-bottom: 0.0625rem solid #eaeaea;
+    font-size: 1px;
+    font-size: 0.0625rem;
+}
+
+#updateDescription {
+    color: #4b4b4b;
+    height: 152px;
+    height: 9.5rem;
+    text-align: left;
+    margin: 10px;
+    margin: 0.625rem;
+    padding: 10px;
+    padding: 0.625rem;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 20px;
+    line-height: 1.25rem;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border: 0.0625rem solid #e6e6e6;
+    border-radius: 4px;
+    border-radius: 0.25rem;
+    overflow-y: auto;
+}
+
+#updateScreenButton {
+    position: absolute;
+    bottom: 40px;
+    bottom: 2.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+#suiteContent {
+    height: 380px;
+    height: 23.75rem;
+    color: #4b4b4b;
+    background: #f5f5f5;
+    position: relative;
+    display: none;
+}
+
+#suiteIcon {
+    margin-top: 20px;
+    height: 42px;
+    width: 44px;
+}
+
+#suiteName {
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: lighter;
+    color: #262626;
+}
+
+#productsListingContainer {
+    max-height: 230px;
+    background-color: #F0F0F0;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#informationHeader {
+    display: none;
+}
+.productContainer {
+    height: 42px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.productContainer:first-child {
+    border-top: none;
+}
+
+.productContainer:last-child {
+    border-bottom: none;
+}
+
+.selectProduct {
+    height: 42px;
+    width: 14px;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: 42px;
+    float: left;
+}
+
+.productListingIcon {
+    height: 42px;
+    width: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: 42px;
+    float: left;
+}
+
+.productListingIconImg {
+    height: 18px;
+    width: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.productListingName {
+    font-size: 14px;
+    font-weight: normal;
+    color: #4B4B4B;
+    display: inline-block;
+    line-height: 42px;
+    float: left;
+    width: 250px;
+    text-align: left;
+}
+
+.productListingSize {
+    font-size: 14px;
+    font-weight: normal;
+    color: #4B4B4B;
+    text-align: right;
+    float: right;
+    display: inline-block;
+    line-height: 42px;
+    width: 75px;
+}
+
+#selectedProductsStats {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#productsSelectedStatus {
+    font-weight: normal;
+    float: left;
+    max-width: 200px;
+    max-width: 12.5rem;
+    text-align: left;
+}
+
+#selectAllProducts {
+    cursor: pointer;
+    color: #2B9BF3;
+}
+
+#totalSize {
+    color: #4B4B4B;
+    font-weight: bold;
+    float: right;
+    max-width: 200px;
+    max-width: 12.5rem;
+    text-align: right;
+}
+
+.ellip-line {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow:hidden;
+}
+
+.locationDisabledWarningText {
+    font-size: 12px;
+    color: #8E8E8E;
+    padding-top: 10px;
+    display: none;
+}

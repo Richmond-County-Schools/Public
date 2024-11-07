@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html style="width: 100%; height: 100%; overflow:hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+    <title>Adobe Installer</title>
+    <link rel="stylesheet" type="text/css" href="clean.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="common.css">
+
+</head>
+
+<body onload="onLoadComplete()">
+    <div class="container">
+
+        <div id="spinnerScreen" class="screen">
+            <div class="spinnerContent centerMid">
+                <img id="spinnerScreenImage" class="imageSpinner" />
+                <span id="spinnerScreenText" class="spinnerScreenText"></span>
+            </div>
+        </div>
+
+        <div class="screen consistantPad" id="surveyScreen">
+            <div class="screenHead">
+                <img id="surveyScreenIcon" />
+                <span id="surveyScreenTitle" class="screenTitle"></span>
+            </div>
+
+            <h3 id="surveyScreenHeader" class="screenHeader"></h3>
+
+            <div class="content">
+                <select id="surveySelectQuestion1" class="surveyQuestion" onchange="surveySelectChanged()">
+                    <option id="surveyQuestion1" selected="selected" value=""></option>
+                    <option id="surveyQuestion1Option1" value="beginner"></option>
+                    <option id="surveyQuestion1Option2" value="experienced"></option>
+                </select>
+                <br />
+                <br />
+                <select id="surveySelectQuestion2" class="surveyQuestion" onchange="surveySelectChanged()">
+                    <option id="surveyQuestion2" selected="selected" value=""></option>
+                    <option id="surveyQuestion2Option1" value="printgraphicdesign"></option>
+                    <option id="surveyQuestion2Option2" value="video"></option>
+                    <option id="surveyQuestion2Option3" value="webmobiledesign"></option>
+                    <option id="surveyQuestion2Option4" value="photographer"></option>
+                    <option id="surveyQuestion2Option5" value="biz_pro"></option>
+                    <option id="surveyQuestion2Option6" value="it_pro"></option>
+                    <option id="surveyQuestion2Option7" value="student"></option>
+                    <option id="surveyQuestion2Option8" value="academic"></option>
+                    <option id="surveyQuestion2Option9" value="hobbyist"></option>
+                    <option id="surveyQuestion2Option10" value="other"></option>
+                </select>
+                <br />
+                <br />
+                <select id="surveySelectQuestion3" class="surveyQuestion" onchange="surveySelectChanged()">
+                    <option id="surveyQuestion3" selected="selected" value=""></option>
+                    <option id="surveyQuestion3Option1" value="me_nonprofessional"></option>
+                    <option id="surveyQuestion3Option2" value="me_professional"></option>
+                    <option id="surveyQuestion3Option3" value="org_involved"></option>
+                    <option id="surveyQuestion3Option4" value="org_notinvolved"></option>
+                </select>
+            </div>
+            <div class="text-center">
+                <input id="surveyContinueButton" class="btn btn-primary" type="button" onclick='surveyContinueButtonClick()'>
+            </div>
+        </div>
+
+        <div class="screen consistantPad" id="piiScreen">
+            <div class="screenHead">
+                <div id="piiScreenIcon">
+                    <img id="piiScreenIconImage" />
+                </div>
+                <div id="piiScreenTitle" class="screenTitle"></div>
+            </div>
+
+            <div id="piiScreenText" class="content"></div>
+
+            <div class="text-center">
+                <input id="piiContinueButton" class="btn btn-primary" type="button" value="" onclick='piiContinueButtonClick()' />
+            </div>
+        </div>
+
+        <div id="mainScreen" class="screen mainContainer">
+            <div class="header" id="mainScreenHeader">
+                <div id="progressDiv">
+                    <div class="topBar">
+                        <div class="pull-left title">
+                            <div id="progressText" class="ellip-line">
+                                <div id="progressTextAction" class="ellip-line"></div>
+                                <div id="progressTextPercent" class="ellip-line"></div>
+                            </div>
+                            <div id="minutesLeftText"></div>
+                        </div>                        
+                    </div>
+                    <div class="progressContainer">
+                        <div id="progressTrack" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="updateScreenHeader">
+                <div id="updateAvailability">
+
+                </div>
+            </div>
+			 <div id="spinnerContent" class="spinnerContent centerMid">
+				<img id="iframeSpinner" class="imageSpinner" />
+                <span id="iframeSpinnerScreenText" class="spinnerScreenText"></span>
+			</div>
+            <div id="marketingIFrameDiv"></div>
+        </div>
+
+        <div class="screen" id="overlayScreen">
+            <div id="overlayScreenBackground"></div>
+            <div id="overlayAlert" class="">
+                <div class="modalHeader">
+                    <div id="alertTitle" class="overlayTitleNormal"></div>
+                    <img id="alertIcon" class="pull-right" />
+                </div>
+                <div id="modalBody" class="modalBody default-skin">
+                    <div id="alertText" class="overlayText"></div>
+                    <div id="proxyAlertDiv">
+                        <div id="ProxyAlertTitle" class="overlayText"></div>
+                        <input id="proxyAlertUsername" class="userInputFilled" type="text" autocomplete="off">
+                        <input id="proxyAlertPassword" class="userInputFilled" type="password" autocomplete="off">
+                        <div class="checkBoxGroup">
+                            <input id="proxyAlertRememberMe" name="proxyAlertRememberMe" type="checkbox">
+                            <span id="proxyAlertRememberMeText"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modalFooter text-center" id="modalFooter">
+                    <a id="alertLeftButton" href="#" class="footerItem light"></a>
+                    <span id="alertButtonSeperatorDiv" class="separator"></span>
+                    <a id="alertRightButton" href="#" class="footerItem"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="emptyScreen">
+
+        </div>
+
+        <div id="quitConfirmationScreen">
+            <div id="quitConfirmationScreenBackground"></div>
+            <div id="quitConfirmationScreenBody">
+                <div id="quitConfirmationScreenModalHeader" class="modalHeader">
+                    <div id="quitConfirmationScreenTitle" class="overlayTitleNormal"></div>
+                    <img id="quitConfirmationScreenIcon" class="pull-right" />
+                </div>
+                <div id="quitConfirmationScreenModalBody" class="modalBody default-skin">
+                    <div id="quitConfirmationScreenText" class="overlayText"></div>
+                </div>
+                <div id="quitConfirmationScreenModalFooter" class="modalFooter text-center">
+                    <a id="quitConfirmationScreenLeftButton" href="#" class="footerItem light" onclick="quitScreenLeftButtonClicked()"></a>
+                    <span id="alertButtonSeperatorDiv" class="separator"></span>
+                    <a id="quitConfirmationScreenRightButton" href="#" class="footerItem" onclick="quitScreenRightButtonClicked()"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="noNetworkScreen">
+            <div id="noNetworkAlertSVG"></div>
+            <div id="noNetworkTitle" class="text-center"></div>
+            <div id="noNetworkDescription" class="text-center"></div>
+            <div id="noNetworkRetryButton" class="text-center">
+                <a href="#" id="noNetworkScreenRetryBtn" class="btn btn-primary" onclick="noNetworkRetryClicked()"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.placeholder.min.js"></script>
+    <script src="lib/jquery.custom-scrollbar.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="common.js"></script>
+</body>
+</html>
