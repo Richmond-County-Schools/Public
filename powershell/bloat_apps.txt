@@ -1,0 +1,59 @@
+# Packages to remove
+PKG: AD2F1837.HPJumpStarts
+PKG: AD2F1837.HPPCHardwareDiagnosticsWindows
+PKG: AD2F1837.HPPowerManager
+PKG: AD2F1837.HPPrivacySettings
+PKG: AD2F1837.HPSupportAssistant
+PKG: AD2F1837.HPSureShieldAI
+PKG: AD2F1837.HPSystemInformation
+PKG: AD2F1837.HPQuickDrop
+PKG: AD2F1837.HPWorkWell
+PKG: AD2F1837.myHP
+PKG: AD2F1837.HPDesktopSupportUtilities
+PKG: AD2F1837.HPQuickTouch
+PKG: AD2F1837.HPEasyClean
+PKG: AD2F1837.HPSystemInformation
+PKG: Microsoft.Getstarted
+PKG: Microsoft.GetHelp
+PKG: Microsoft.Microsoft3DViewer
+PKG: Microsoft.MicrosoftSolitaireCollection
+PKG: Microsoft.MicrosoftTeams
+PKG: Microsoft.MixedReality.Portal
+PKG: Microsoft.OneConnect
+PKG: Microsoft.SkypeApp
+PKG: Microsoft.windowscommunicationsapps
+PKG: Microsoft.WindowsFeedbackHub
+PKG: Microsoft.Xbox.TCUI
+PKG: Microsoft.XboxApp
+PKG: Microsoft.XboxGameOverlay
+PKG: Microsoft.XboxGamingOverlay
+PKG: Microsoft.XboxIdentityProvider
+PKG: Microsoft.XboxSpeechToTextOverlay
+PKG: Microsoft.YourPhone
+PKG: Microsoft.ZuneMusic
+PKG: Microsoft.ZuneVideo
+PKG: Microsoft.WindowsTerminal
+PKG: Microsoft.WindowsMaps
+PKG: Microsoft.BingWeather
+PKG: Microsoft.BingNews
+PKG: ClipChamp.ClipChamp
+PKG: MicrosoftTeams
+
+# Programs to remove
+PRG: HP Client Security Manager
+PRG: HP Connection Optimizer
+PRG: HP Documentation
+PRG: HP MAC Address Manager
+PRG: HP Notifications
+PRG: HP Security Update Service
+PRG: HP System Default Settings
+PRG: HP Sure Click
+PRG: HP Sure Click Security Browser
+PRG: HP Sure Run
+PRG: HP Sure Recover
+PRG: HP Sure Sense
+PRG: HP Sure Sense Installer
+PRG: HP Wolf Security
+PRG: HP Wolf Security Application Support for Sure Sense
+PRG: HP Wolf Security Application Support for Windows
+PRG: HP Wolf Security - Console
