@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Actions>
 	<GUI_Config>
-		<XML_Version>1.0.0</XML_Version>	
+		<XML_Version>1.0.1</XML_Version>	
 		<Tool_Version>1.0.0</Tool_Version>
 		
 		<!-- Install location part --> 
