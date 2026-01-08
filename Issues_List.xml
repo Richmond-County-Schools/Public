@@ -20,7 +20,7 @@ Click on the SelfX shortcut available on your desktop or Start menu to launch th
 		<Toast_Button_Text>Dismiss</Toast_Button_Text>
 				
 		<!-- Main part -->
-		<Link_Scripts></Link_Scripts> <!-- If Type = Download, type the path where to find Issues_List.xml--> 
+		<Link_Scripts>https://github.com/Richmond-County-Schools/Public/raw/refs/heads/main/Scripts_to_run.zip</Link_Scripts> <!-- If Type = Download, type the path where to find Issues_List.xml--> 
 		<Tool_Color>Green</Tool_Color> <!-- Available colors: “Red”, “Green”, “Blue”, “Purple”, “Orange”, “Lime”, “Emerald”, “Teal”, “Cyan”, “Cobalt”, “Indigo”, “Violet”, “Pink”, “Magenta”, “Crimson”, “Amber”, “Yellow”, “Brown”, “Olive”, “Steel”, “Mauve”, “Taupe”, “Sienna” -->				
 		<Main_Title_Text>An issue with your device</Main_Title_Text> <!-- Main GUI: main title -->
 		<Show_Computer_Name>True</Show_Computer_Name> <!-- Display the computer name beside the main title. True or False -->		
