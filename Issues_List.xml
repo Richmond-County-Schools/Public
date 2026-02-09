@@ -82,7 +82,7 @@ Do you want to continue?
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Fix update issues by clearing the Windows Update download cache</Explanation>
 		<Script>clear_windows_update_cache.ps1</Script>
-		<Category>Windows Update</Category>
+		<Category>Updates</Category>
 		<Alerte_MSG>An action will be executed in the background.
 Windows Update files will be cleared and rebuilt.
 
@@ -97,7 +97,7 @@ Do you want to continue?
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Reset Windows Update services and repair common update failures</Explanation>
 		<Script>repair_windows_update.ps1</Script>
-		<Category>Windows Update</Category>
+		<Category>Updates</Category>
 		<Alerte_MSG>An action will be executed in the background.
 Windows Update components will be repaired.
 
@@ -112,7 +112,7 @@ Do you want to continue?
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Force this device to check in with Intune for apps and policies</Explanation>
 		<Script>intune_device_sync.ps1</Script>
-		<Category>Device Management</Category>
+		<Category>Device</Category>
 		<Alerte_MSG>An action will be executed in the background.
 The device will sync with Intune.
 
@@ -155,7 +155,7 @@ Do you want to continue?
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Free up disk space by removing system temporary files</Explanation>
 		<Script>clean_system_temp.ps1</Script>
-		<Category>System Cleanup</Category>
+		<Category>Cleanup</Category>
 		<Alerte_MSG>An action will be executed in the background.
 Temporary system files will be removed.
 
