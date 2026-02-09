@@ -54,7 +54,7 @@ Click on the SelfX shortcut available on your desktop or Start menu to launch th
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Restart core Windows services used for updates, software installs, and device management</Explanation>
 		<Script>restart_management_services.ps1</Script>
-		<Category>Device</Category>
+		<Category>General</Category>
 		<Alerte_MSG>An action will be executed in the background.
 Core Windows services will be restarted.
 
@@ -69,7 +69,7 @@ Do you want to continue?
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Force your computer to sync its clock with the network time server</Explanation>
 		<Script>sync_time.ps1</Script>
-		<Category>Device</Category>
+		<Category>General</Category>
 		<Alerte_MSG>An action will be executed in the background.
 Your system time will be updated.
 
@@ -112,7 +112,7 @@ Do you want to continue?
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Force this device to check in with Intune for apps and policies</Explanation>
 		<Script>intune_device_sync.ps1</Script>
-		<Category>Device</Category>
+		<Category>General</Category>
 		<Alerte_MSG>An action will be executed in the background.
 The device will sync with Intune.
 
@@ -155,7 +155,7 @@ Do you want to continue?
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Free up disk space by removing system temporary files</Explanation>
 		<Script>clean_system_temp.ps1</Script>
-		<Category>Cleanup</Category>
+		<Category>General</Category>
 		<Alerte_MSG>An action will be executed in the background.
 Temporary system files will be removed.
 
@@ -168,7 +168,7 @@ Do you want to continue?
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Fix search issues by rebuilding the Windows search index</Explanation>
 		<Script>rebuild_search_index.ps1</Script>
-		<Category>Windows</Category>
+		<Category>General</Category>
 		<Alerte_MSG>An action will be executed in the background.
 Search indexing will be rebuilt.
 
