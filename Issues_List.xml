@@ -1,4 +1,4 @@
-﻿<Actions>
+<Actions>
 	<GUI_Config>
 		<XML_Version>1.0.2</XML_Version>
 		<Tool_Version>1.0.0</Tool_Version>
@@ -66,160 +66,6 @@ Click on the SelfX shortcut available on your desktop or Start menu to launch th
 	</Action>	
 
 	<Action>
-	<Name>Force Group Policy Update (Computer)</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Force the computer to reapply system policies from the network</Explanation>
-	<Script>gpupdate_computer.ps1</Script>
-	<Category>Device</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Computer policies will be refreshed.
-
-A restart may be required.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Resync System Time</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Force your computer to sync its clock with the network time server</Explanation>
-	<Script>sync_time.ps1</Script>
-	<Category>Device</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Your system time will be updated.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Clear Windows Update Cache</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Fix update issues by clearing the Windows Update download cache</Explanation>
-	<Script>clear_windows_update_cache.ps1</Script>
-	<Category>Windows Update</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Windows Update files will be cleared and rebuilt.
-
-This may take several minutes.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Repair Windows Update Components</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Reset Windows Update services and repair common update failures</Explanation>
-	<Script>repair_windows_update.ps1</Script>
-	<Category>Windows Update</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Windows Update components will be repaired.
-
-A restart may be required.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Force Intune Device Sync</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Force this device to check in with Intune for apps and policies</Explanation>
-	<Script>intune_device_sync.ps1</Script>
-	<Category>Device Management</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-The device will sync with Intune.
-
-Apps or policies may take a few minutes to appear.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Reset Network Stack</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Fix network issues by resetting core networking components</Explanation>
-	<Script>reset_network_stack.ps1</Script>
-	<Category>Networking</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Network settings will be reset.
-
-A restart will be required.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Reset Print Spooler</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Fix printing issues by clearing the print queue and restarting services</Explanation>
-	<Script>reset_print_spooler.ps1</Script>
-	<Category>Printing</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-All print jobs will be cleared.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Clean System Temporary Files</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Free up disk space by removing system temporary files</Explanation>
-	<Script>clean_system_temp.ps1</Script>
-	<Category>System Cleanup</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Temporary system files will be removed.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Rebuild Windows Search Index</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Fix search issues by rebuilding the Windows search index</Explanation>
-	<Script>rebuild_search_index.ps1</Script>
-	<Category>Windows</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Search indexing will be rebuilt.
-
-Search results may be incomplete while indexing runs.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Rebuild Windows Search Index</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Fix search issues by rebuilding the Windows search index</Explanation>
-	<Script>rebuild_search_index.ps1</Script>
-	<Category>Windows</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Search indexing will be rebuilt.
-
-Search results may be incomplete while indexing runs.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-	<Action>
 		<Name>Resync System Time</Name>
 		<Buttons>Ok_Cancel</Buttons>
 		<Explanation>Force your computer to sync its clock with the network time server</Explanation>
@@ -227,7 +73,115 @@ Do you want to continue?
 		<Category>Device</Category>
 		<Alerte_MSG>
 	An action will be executed in the background.
-	Your system time will be updated.  
+	Your system time will be updated.
+
+	Do you want to continue?
+		</Alerte_MSG>
+	</Action>
+
+	<Action>
+		<Name>Clear Windows Update Cache</Name>
+		<Buttons>Ok_Cancel</Buttons>
+		<Explanation>Fix update issues by clearing the Windows Update download cache</Explanation>
+		<Script>clear_windows_update_cache.ps1</Script>
+		<Category>Windows Update</Category>
+		<Alerte_MSG>
+	An action will be executed in the background.
+	Windows Update files will be cleared and rebuilt.
+
+	This may take several minutes.
+
+	Do you want to continue?
+		</Alerte_MSG>
+	</Action>
+
+	<Action>
+		<Name>Repair Windows Update Components</Name>
+		<Buttons>Ok_Cancel</Buttons>
+		<Explanation>Reset Windows Update services and repair common update failures</Explanation>
+		<Script>repair_windows_update.ps1</Script>
+		<Category>Windows Update</Category>
+		<Alerte_MSG>
+	An action will be executed in the background.
+	Windows Update components will be repaired.
+
+	A restart may be required.
+
+	Do you want to continue?
+		</Alerte_MSG>
+	</Action>
+
+	<Action>
+		<Name>Force Intune Device Sync</Name>
+		<Buttons>Ok_Cancel</Buttons>
+		<Explanation>Force this device to check in with Intune for apps and policies</Explanation>
+		<Script>intune_device_sync.ps1</Script>
+		<Category>Device Management</Category>
+		<Alerte_MSG>
+	An action will be executed in the background.
+	The device will sync with Intune.
+
+	Apps or policies may take a few minutes to appear.
+
+	Do you want to continue?
+		</Alerte_MSG>
+	</Action>
+
+	<Action>
+		<Name>Reset Network Stack</Name>
+		<Buttons>Ok_Cancel</Buttons>
+		<Explanation>Fix network issues by resetting core networking components</Explanation>
+		<Script>reset_network_stack.ps1</Script>
+		<Category>Networking</Category>
+		<Alerte_MSG>
+	An action will be executed in the background.
+	Network settings will be reset.
+
+	A restart will be required.
+
+	Do you want to continue?
+		</Alerte_MSG>
+	</Action>
+
+	<Action>
+		<Name>Reset Print Spooler</Name>
+		<Buttons>Ok_Cancel</Buttons>
+		<Explanation>Fix printing issues by clearing the print queue and restarting services</Explanation>
+		<Script>reset_print_spool.ps1</Script>
+		<Category>Printing</Category>
+		<Alerte_MSG>
+	An action will be executed in the background.
+	All print jobs will be cleared.
+
+	Do you want to continue?
+		</Alerte_MSG>
+	</Action>
+
+	<Action>
+		<Name>Clean System Temporary Files</Name>
+		<Buttons>Ok_Cancel</Buttons>
+		<Explanation>Free up disk space by removing system temporary files</Explanation>
+		<Script>clean_system_temp.ps1</Script>
+		<Category>System Cleanup</Category>
+		<Alerte_MSG>
+	An action will be executed in the background.
+	Temporary system files will be removed.
+
+	Do you want to continue?
+		</Alerte_MSG>
+	</Action>
+
+	<Action>
+		<Name>Rebuild Windows Search Index</Name>
+		<Buttons>Ok_Cancel</Buttons>
+		<Explanation>Fix search issues by rebuilding the Windows search index</Explanation>
+		<Script>rebuild_search_index.ps1</Script>
+		<Category>Windows</Category>
+		<Alerte_MSG>
+	An action will be executed in the background.
+	Search indexing will be rebuilt.
+
+	Search results may be incomplete while indexing runs.
 
 	Do you want to continue?
 		</Alerte_MSG>
