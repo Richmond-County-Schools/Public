@@ -1,6 +1,6 @@
-﻿<Actions>
+<Actions>
 	<GUI_Config>
-		<XML_Version>1.0.4</XML_Version>
+		<XML_Version>1.0.5</XML_Version>
 		<Tool_Version>1.0.0</Tool_Version>
 		<Admin_Password>RCSSelfHelp2026</Admin_Password>
 		
@@ -65,36 +65,6 @@ Do you want to continue?
 		</Alerte_MSG>
 	</Action>	
 
-	<Action>
-	<Name>Force Group Policy Update (Computer)</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Force the computer to reapply system policies from the network</Explanation>
-	<Script>gpupdate_computer.ps1</Script>
-	<Category>Device</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Computer policies will be refreshed.
-
-A restart may be required.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Resync System Time</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Force your computer to sync its clock with the network time server</Explanation>
-	<Script>sync_time.ps1</Script>
-	<Category>Device</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-Your system time will be updated.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
 <Action>
 	<Name>Clear Windows Update Cache</Name>
 	<Buttons>Ok_Cancel</Buttons>
@@ -122,38 +92,6 @@ An action will be executed in the background.
 Windows Update components will be repaired.
 
 A restart may be required.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Force Intune Device Sync</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Force this device to check in with Intune for apps and policies</Explanation>
-	<Script>intune_device_sync.ps1</Script>
-	<Category>Device</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-The device will sync with Intune.
-
-Apps or policies may take a few minutes to appear.
-
-Do you want to continue?
-	</Alerte_MSG>
-</Action>
-
-<Action>
-	<Name>Delete All User Profiles</Name>
-	<Buttons>Ok_Cancel</Buttons>
-	<Explanation>Force logout of all signed in users, delete all users, then restart.</Explanation>
-	<Script>password_delete_all_users.ps1</Script>
-	<Category>Device</Category>
-	<Alerte_MSG>
-An action will be executed in the background.
-All currently logged in users will be logged out.
-
-All user profiles will be deleted.
 
 Do you want to continue?
 	</Alerte_MSG>
@@ -240,19 +178,6 @@ Do you want to continue?
 Search indexing will be rebuilt.
 
 Search results may be incomplete while indexing runs.
-
-Do you want to continue?
-		</Alerte_MSG>
-	</Action>
-	
-	<Action>
-		<Name>Password Test</Name>
-		<Buttons>Ok_Cancel</Buttons>
-		<Explanation>Testing a password prompt before running script</Explanation>
-		<Script>password_test.ps1</Script>
-		<Category>Device</Category>
-		<Alerte_MSG>An action will be executed in the background.
-Your system time will be updated.  
 
 Do you want to continue?
 		</Alerte_MSG>
