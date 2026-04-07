@@ -36,8 +36,11 @@ PKG: Microsoft.WindowsTerminal
 PKG: Microsoft.WindowsMaps
 PKG: Microsoft.BingWeather
 PKG: Microsoft.BingNews
+PKG: Microsoft.MixedRealityLink
+PKG: MicrosoftCorporationII.MicrosoftFamily
 PKG: ClipChamp.ClipChamp
 PKG: MicrosoftTeams
+PKG: MSTeams
 
 # Programs to remove
 PRG: HP Client Security Manager
