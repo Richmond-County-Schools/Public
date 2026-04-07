@@ -34,6 +34,7 @@ PKG: Microsoft.ZuneMusic
 PKG: Microsoft.ZuneVideo
 PKG: Microsoft.WindowsTerminal
 PKG: Microsoft.WindowsMaps
+PKG: Microsoft.Windows.DevHome
 PKG: Microsoft.BingWeather
 PKG: Microsoft.BingNews
 PKG: Microsoft.MixedRealityLink
